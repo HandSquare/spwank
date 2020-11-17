@@ -29,5 +29,8 @@ class gio(person):
 class jon(person):
     pass
 
+class nick(person):
+    pass
+
 class rajan(person):
     pass
