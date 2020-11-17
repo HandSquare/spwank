@@ -2,35 +2,47 @@
 Defines all our characters
 """
 
-class person(object):
+class Person(object):
 
-    def _init_(self):
+    def _init_(self, name):
         self.inventory = {}
         self.health = 100
         self.insight = 0
-        self.alive = 0
+        self.alive = None
+        self.name = name
     
     def spawn(self):
         self.alive = True
 
     def die(self):
         self.alive = False
+        
 
+class Brian(person):
+    def __init__(self):
+        Person.__init__(self, name = 'Brian')
+        
+class Caleb(person):
+    def __init__(self):
+        Person.__init__(self, name = 'Caleb')
 
-class brian(person):
-    person.__init__()
+        
+class Gio(person):
+    def __init__(self):
+        Person.__init__(self, name = 'Gio')
 
-class caleb(person):
-    person.__init__()
+        
+class Jon(person):
+    def __init__(self):
+        Person.__init__(self, name = 'Jon')
 
-class gio(person):
-    person.__init__()
+        
+class Nick(person):
+    def __init__(self):
+        Person.__init__(self, name = 'Nick')
 
-class jon(person):
-    person.__init__()
-
-class nick(person):
-    person.__init__()
-
-class rajan(person):
-    person.__init__()
+        
+class Rajan(person):
+    def __init__(self):
+        Person.__init__(self, name = 'Rajan')
+        
