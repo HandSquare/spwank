@@ -18,19 +18,25 @@ class person(object):
 
 
 class brian(person):
+    person.__init__()
     pass
 
 class caleb(person):
+    person.__init__()
     pass
 
 class gio(person):
+    person.__init__()
     pass
 
 class jon(person):
+    person.__init__()
     pass
 
 class nick(person):
+    person.__init__()
     pass
 
 class rajan(person):
+    person.__init__()
     pass
