@@ -1,8 +1,19 @@
 # [spwank]
 
 A text-based adventure game that (optionally) interacts with our Slack workspace and our bot, Jeremy.
+Written in Python 3.8.2, node.js, and perhaps later Rust if @Gio or @Cleb wants to contribute.
 
-## Some features
+## How to play
+
+Make sure you have `python` 3.7 or higher installed.
+
+```sh
+git clone https://github.com/jonkislin/spwank
+cd spwank
+python play.py
+```
+
+## Some features (WIP)
 
 1. Fancy menus  
 2. Easter eggs
