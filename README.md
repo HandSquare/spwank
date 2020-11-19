@@ -8,8 +8,7 @@ A text-based adventure game that (optionally) interacts with our Slack workspace
 2. Easter eggs
 3. Cosmic/cyber horror
 4. Fantasy series references (don't sue me, Tor)
-5. Pythonic fun
-6. Calls to [jeremy](https://github.com/nickells/jeremy-the-bot)!
+5. Calls to [jeremy](https://github.com/nickells/jeremy-the-bot)!
 
 In development. Pull requests welcome. 
 
