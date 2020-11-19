@@ -1,0 +1,2 @@
+import people
+dir(people)
