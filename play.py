@@ -1,4 +1,4 @@
-from classes import *
+from entities import *
 from pprint import pprint
 
 # ==========================
@@ -35,6 +35,18 @@ print('\n')
 print("Your inventory: ")
 for stat, value in player.inventory.items():
     print(f"\t{stat}: {value}")
+
+print("\n")
+
+# =======================
+# *** Jeremy Sequence ***
+# =======================
+
+jeremy = Jeremy(realm = 'Dark')
+jeremy.sendSlack(
+    message = f"Python test with [spwank] player: {player.stats['name']}!",
+    channel = 'jeremys_in_a_sandbox'
+)
 
 print("\n")
 
