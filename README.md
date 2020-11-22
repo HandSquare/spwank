@@ -1,7 +1,7 @@
 # [spwank]
 
-A text-based adventure game that (optionally) interacts with our Slack workspace and our bot, Jeremy.
-Written in Python 3.8.2, node.js, and perhaps later Rust if @Gio or @Cleb wants to contribute.
+A text-based adventure game that (optionally) interacts with our Slack workspace and our bot, Jeremy.   
+Written in Python 3.8, node.js, and perhaps later Rust if @Gio or @Cleb wants to contribute.
 
 ## How to play
 
@@ -13,6 +13,8 @@ cd spwank
 python play.py
 ```
 
+Current version is 0.1.0.   
+
 ## Some features (WIP)
 
 1. Fancy menus  
@@ -20,6 +22,9 @@ python play.py
 3. Cosmic/cyber horror
 4. Fantasy series references (don't sue me, Tor)
 5. Calls to [jeremy](https://github.com/nickells/jeremy-the-bot)!
+
+## Known issues
+1. Jeremy does not work on Arch Linux. (and possible all Linux).
 
 In development. Pull requests welcome. 
 
